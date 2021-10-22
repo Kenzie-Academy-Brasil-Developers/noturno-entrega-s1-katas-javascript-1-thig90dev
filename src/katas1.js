@@ -1,174 +1,200 @@
-function oneThroughTwenty(numero) {
+function oneThroughTwenty() {
     
    /* Your code goes below
    Write a for or a while loop
    return the result*/
-  
+    let resultado = [];
     let contador = 1;
     
-      while (contador <= numero) {
-        console.log(contador);
+      while (contador <= 20) {
+        
         contador++;
-      }
+      } resultado.push(contador);
       
   
-  
-}  oneThroughTwenty(20);
+      return resultado;
+} oneThroughTwenty();
 
-call function oneThroughTwenty
 
-function evensToTwenty(numero) {
+// call function oneThroughTwenty
+
+function evensToTwenty() {
     
    /* Your code goes below
    Write a for or a while loop
    return the result */
+   let resultado = [];
    let contador = 1;
     
-   while (contador <= numero) {
+   while (contador <= 20) {
      if(contador % 2 == 0) {
-      console.log(contador);
+      resultado.push(contador);
      }
      
      contador++;
-   }
-} evensToTwenty(20)
+   } console.log(resultado);
+} evensToTwenty();
 
-call function evensToTwenty
 
-function oddsToTwenty(numero) {
+// call function evensToTwenty
+
+function oddsToTwenty() {
     
   /* Your code goes below
   Write a for or a while loop
   return the result */
+  let resultado = [];
   let contador = 1;
     
-  while (contador <= numero) {
+  while (contador <= 20) {
     if(contador % 2 == 1) {
-     console.log(contador);
+      resultado.push(contador);
     }
     
     contador++;
-  }
-} oddsToTwenty(20)
+  } console.log(resultado);
+} oddsToTwenty();
+  
 
-call function oddsToTwenty
+// call function oddsToTwenty
 
-function multiplesOfFive(numero) {
+function multiplesOfFive() {
     
   /* Your code goes below
   Write a for or a while loop
   return the result */
-let contador = 1
+  let resultado = [];
+  let contador = 1;
 
-while (contador <= numero) {
+while (contador <= 100) {
   if (contador % 5 == 0) {
-    console.log(contador);
+    resultado.push(contador);
+
   }
   contador++
-} 
-} multiplesOfFive(100)
+} console.log(resultado);
+} multiplesOfFive();
+  
 
-call function multiplesOfFive
+// call function multiplesOfFive
 
-function squareNumbers(numero) {
+function squareNumbers() {
     
   /* Your code goes below
    Write a for or a while loop
    return the result */
-   let contador = 1
+   let resultado = [];
+   let contador = 1;
    
-   while (contador <= numero) {
+   while (contador <= 10) {
      
-     console.log(contador * contador);
+     return(contador * contador);
+     resultado.push(contador);
+
      contador++
    }  
-   
- } squareNumbers(10) 
+   console.log(resultado);
+ } squareNumbers() ;
+ 
 
-call function squareNumbers
+// call function squareNumbers
 
-function countingBackwards(numero) {
+function countingBackwards() {
     
   /* Your code goes below
   Write a for or a while loop
   return the result */
+  let resultado = [];
   let contador = 20;
     
-   while (contador >= numero) {
+   while (contador >= 1) {
      
-      console.log(contador);
+      resultado.push(contador);
           
      contador--;
-   }
-} countingBackwards(1)
+   } console.log(resultado);
 
-call function countingBackwards
+} countingBackwards();
 
-function evenNumbersBackwards(numero) {
+// call function countingBackwards
+
+function evenNumbersBackwards() {
     
   /* Your code goes below
    Write a for or a while loop
    return the result */
+   let resultado = [];
    let contador = 20;
  
-   while(contador >= numero) {
+   while(contador >= 1) {
      if(contador % 2 == 0){
-      console.log(contador);
+      resultado.push(contador);
+
      }
      
      contador--;
-   }
- } evenNumbersBackwards(1)
+   } console.log(resultado);
 
-call function evenNumbersBackwards
+ } evenNumbersBackwards();
 
-function oddNumbersBackwards(numero) {
+
+// call function evenNumbersBackwards
+
+function oddNumbersBackwards() {
     
  /* Your code goes below
   Write a for or a while loop
   return the result */
+  let resultado = [];
   let contador = 20;
 
-  while(contador >= numero){
+  while(contador >= 1){
     if(contador % 2 == 1){
-      console.log(contador);
+      resultado.push(contador);
     }
     contador--;
   }
+  console.log(resultado);
+} oddNumbersBackwards();
   
-} oddNumbersBackwards(1);
 
-call function oddNumbersBackwards
+// call function oddNumbersBackwards
 
-function multiplesOfFiveBackwards(numero) {
+function multiplesOfFiveBackwards() {
     
  /* Your code goes below
   Write a for or a while loop
   return the result */
+  let resultado = [];
   let contador = 100;
 
-  while(contador >= numero){
+  while(contador >= 1){
     if(contador % 5 == 0){
-      console.log(contador);
+      resultado.push(contador);
     }
     contador--;
-  }
-}multiplesOfFiveBackwards(1)
+  } console.log(resultado);
 
-call function multiplesOfFiveBackwards
+}multiplesOfFiveBackwards();
 
-function squareNumbersBackwards(numero) {
+// call function multiplesOfFiveBackwards
+
+function squareNumbersBackwards() {
     
   /* Your code goes below
  Write a for or a while loop
  return the result */
+ let resultado = [];
  let contador = 10;
 
- while(contador >= numero){
-   console.log(contador*contador);
+ while(contador >= 1){
+   let resultfinal = contador*contador;
+   resultado.push(resultfinal);
    contador--;
  }
- 
-} squareNumbersBackwards(1);
+ console.log(resultado);
 
-call function squareNumbersBackwards
+} squareNumbersBackwards();
+
+// call function squareNumbersBackwards
+
