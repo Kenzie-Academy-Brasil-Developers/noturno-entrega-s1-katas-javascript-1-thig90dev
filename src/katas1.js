@@ -5,14 +5,12 @@ function oneThroughTwenty() {
    return the result*/
     let resultado = [];
     let contador = 1;
-    
-      while (contador <= 20) {
-        
-        contador++;
-      } resultado.push(contador);
+    while(contador <= 20){
+      resultado.push(contador);
+      contador++;
+    }
       
-  
-      return resultado;
+      console.log(resultado);
 } oneThroughTwenty();
 
 
@@ -83,17 +81,16 @@ function squareNumbers() {
   /* Your code goes below
    Write a for or a while loop
    return the result */
+   
    let resultado = [];
    let contador = 1;
-   
-   while (contador <= 10) {
-     
-     return(contador * contador);
-     resultado.push(contador);
 
-     contador++
-   }  
-   console.log(resultado);
+ while(contador <= 10){
+   let resultfinal = contador*contador;
+   resultado.push(resultfinal);
+   contador++;
+ }
+ console.log(resultado);
  } squareNumbers() ;
  
 
